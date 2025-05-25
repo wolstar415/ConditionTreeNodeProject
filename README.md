@@ -1,6 +1,3 @@
-# ConditionTreeNodeProject
-
-
 // 예제: 체력이 50 이상이고 침묵 상태가 아님
 // Example: HP is greater than or equal to 50 AND not silenced
 string cond1 = "HP:>=50 && !IsSilence";
