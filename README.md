@@ -1,3 +1,4 @@
+
 // 예제: 체력이 50 이상이고 침묵 상태가 아님
 // Example: HP is greater than or equal to 50 AND not silenced
 string cond1 = "HP:>=50 && !IsSilence";
@@ -87,3 +88,9 @@ var ctx7_3 = new BattleContext { HP = 90, IsStun = true, States = new() { "haste
 bool r7_1 = node7.IsMatch(ctx7_1);
 bool r7_2 = node7.IsMatch(ctx7_2);
 bool r7_3 = node7.IsMatch(ctx7_3);
+
+
+
+
+
+
